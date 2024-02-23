@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+:root {
+    --orange-color: #F48400;
+}
+
+body {
+    background-image: url("https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar qismi */
+
+.nav-hreft {
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+[nav-btn] {
+    padding: 20px 35.5px;
+    border-radius: 10px;
+    border: 1px solid #FE8C05;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FE8C05;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-list>li:nth-child(1) a:hover {
+    color: aqua;
+}
+
+.nav-list>li:nth-child(2) a:hover {
+    color: #172282;
+}
+
+.nav-list>li:nth-child(3) a:hover {
+    color: rgb(226, 43, 122);
+}
+
+.nav-list>li:nth-child(4) a:hover {
+    color: greenyellow;
+}
+
+/* header qismi */
+
+#header-left-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+
+.header-top-text1 {
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-shadow: 2px 2px 15px white;
+    -webkit-text-stroke: 1px black;
+}
+
+.header-top-text2 {
+    font-family: Josefin Sans;
+    font-size: 74px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0em;
+    color: var(--orange-color);
+    text-shadow: 2px 2px 15px white;
+}
+
+.header-left-section>p {
+    color: white;
+    font-size: 30px;
+}
+
+.header-btn {
+    background-color: var(--orange-color);
+    border: none;
+    border-radius: 12.5px;
+    color: white;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.header-right-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-right-section .headerImg1,
+.header-right-section .headerImg2 {
+    width: 500px;
+    /* height: 700px; */
+    top: 10px;
+    z-index: 1;
+}
+
+.header-right-section .headerImg2 {
+    position: absolute;
+    z-index: -0;
+    right: -150px;
+}
+
+/* 
+.bjr-bijir {
+    background-image: url(../images/bg.png);
+} */
+
+.head-bjir-bjir {
+    background-image: url("../images/bg.png");
+}
+
+.header-right-section {
+    width: 500px;
+}
+
+/* main qismi */
+
+main {
+    background-image: url("../images/car\ bg.png");
+}
+
+
+.title-of-main {
+    font-family: Inter;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+
+.title-of-addition1 {
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.title-of-addition2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--orange-color);
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+}
+
+.card-container1 {
+    width: 362px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 21px;
+    border-radius: 10px;
+}
+
+#card-title {
+    color: white;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;       
+}
+
+[card-paaragrof]{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(80, 80, 80);
+    margin-bottom: 50px;
+}
+
+.main-btn{ 
+    border: none;
+    border-radius: 10px;
+    background-color: var(--orange-color);
+    padding: 8px 32px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.cards-container{
+    padding: 20px 0px;
+    display: flex;  
+    justify-content: space-between;
+}
+
